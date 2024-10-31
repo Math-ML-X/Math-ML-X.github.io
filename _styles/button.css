@@ -1,0 +1,71 @@
+@charset "UTF-8";
+button {
+  cursor: pointer;
+}
+
+.button-wrapper {
+  display: contents;
+}
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: calc(100% - 5px - 5px);
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: var(--rounded);
+  background: var(--primary);
+  color: var(--background);
+  text-align: center;
+  font: inherit;
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  text-decoration: none;
+  vertical-align: middle;
+  appearance: none;
+  transition: background var(--transition), color var(--transition);
+}
+
+.button:hover {
+  background: var(--text);
+  color: var(--background);
+}
+
+.button-qr::after {
+  content: "";
+  z-index: 999;
+  position: absolute;
+  top: 40%; /* 调整位置以匹配你的布局 */
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url("wechat.png"); /* 图片路径 */
+  background-size: contain; /* 调整背景图片大小 */
+  width: 100px; /* 工具提示宽度 */
+  height: 100px; /* 工具提示高度 */
+  /* 其他样式，如边框、阴影等 */
+  opacity: 0; /* 初始隐藏 */
+  pointer-events: none; /* 防止干扰鼠标事件 */
+  transition: opacity 0.3s ease; /* 添加动画效果 */
+}
+
+.button-qr:hover::after {
+  opacity: 1; /* 鼠标悬停时显示 */
+}
+
+.button[data-style=bare] {
+  padding: 5px;
+  background: none;
+  color: var(--primary);
+}
+.button[data-style=bare]:hover {
+  color: var(--text);
+}
+
+.button[data-flip] {
+  flex-direction: row-reverse;
+}
+
+/*# sourceMappingURL=button.css.map */
