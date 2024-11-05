@@ -8,7 +8,7 @@ nav:
 # {% include icon.html icon="fa-solid fa-microscope" %}News
 
 ## Welcome to the Math+ML+X Lab!
-Our research group focuses on the intersection of mathematics, machine learning, and real-world applications (X). We aim to bridge theory and practice by developing new mathematical frameworks and advancing machine learning methodologies, while applying them to solve practical challenges across various domains. Whether it's theoretical breakthroughs or impactful solutions, our goal is to explore innovative ideas that push the boundaries of what’s possible. We are passionate about fostering interdisciplinary collaboration and making meaningful contributions to both academia and industry! 
+Our research group focuses on the intersection of mathematics, machine learning, and real-world applications (X). We aim to bridge theory and practice by developing new mathematical frameworks and advancing machine learning methodologies, while applying them to solve practical challenges across various domains. Whether it's theoretical breakthroughs or impactful solutions, our goal is to explore innovative ideas that push the boundaries of what’s possible. We are passionate about fostering interdisciplinary collaboration and making meaningful contributions to both academia and industry! Looking for a Postdoc position? Drop me an email! THU students seeking a PhD, reach out!
 
 <p style="color: orange; font-weight: bold;">
     Looking for a Postdoc position? Drop me an email! THU students seeking a PhD, reach out!
